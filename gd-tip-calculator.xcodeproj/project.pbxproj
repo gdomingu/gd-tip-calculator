@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC18BA21BAB9561007333DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18BA11BAB9561007333DB /* AppDelegate.swift */; };
+		CEC18BA41BAB9561007333DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18BA31BAB9561007333DB /* ViewController.swift */; };
+		CEC18BA71BAB9561007333DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC18BA51BAB9561007333DB /* Main.storyboard */; };
+		CEC18BA91BAB9561007333DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC18BA81BAB9561007333DB /* Assets.xcassets */; };
+		CEC18BAC1BAB9561007333DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC18BAA1BAB9561007333DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEC18B9E1BAB9561007333DB /* gd-tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gd-tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC18BA11BAB9561007333DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEC18BA31BAB9561007333DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC18BA61BAB9561007333DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC18BA81BAB9561007333DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC18BAB1BAB9561007333DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEC18BAD1BAB9561007333DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC18B9B1BAB9561007333DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC18B951BAB9561007333DB = {
+			isa = PBXGroup;
+			children = (
+				CEC18BA01BAB9561007333DB /* gd-tip-calculator */,
+				CEC18B9F1BAB9561007333DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC18B9F1BAB9561007333DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC18B9E1BAB9561007333DB /* gd-tip-calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC18BA01BAB9561007333DB /* gd-tip-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CEC18BA11BAB9561007333DB /* AppDelegate.swift */,
+				CEC18BA31BAB9561007333DB /* ViewController.swift */,
+				CEC18BA51BAB9561007333DB /* Main.storyboard */,
+				CEC18BA81BAB9561007333DB /* Assets.xcassets */,
+				CEC18BAA1BAB9561007333DB /* LaunchScreen.storyboard */,
+				CEC18BAD1BAB9561007333DB /* Info.plist */,
+			);
+			path = "gd-tip-calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC18B9D1BAB9561007333DB /* gd-tip-calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC18BB01BAB9561007333DB /* Build configuration list for PBXNativeTarget "gd-tip-calculator" */;
+			buildPhases = (
+				CEC18B9A1BAB9561007333DB /* Sources */,
+				CEC18B9B1BAB9561007333DB /* Frameworks */,
+				CEC18B9C1BAB9561007333DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gd-tip-calculator";
+			productName = "gd-tip-calculator";
+			productReference = CEC18B9E1BAB9561007333DB /* gd-tip-calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC18B961BAB9561007333DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = USER;
+				TargetAttributes = {
+					CEC18B9D1BAB9561007333DB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = CEC18B991BAB9561007333DB /* Build configuration list for PBXProject "gd-tip-calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC18B951BAB9561007333DB;
+			productRefGroup = CEC18B9F1BAB9561007333DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC18B9D1BAB9561007333DB /* gd-tip-calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC18B9C1BAB9561007333DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC18BAC1BAB9561007333DB /* LaunchScreen.storyboard in Resources */,
+				CEC18BA91BAB9561007333DB /* Assets.xcassets in Resources */,
+				CEC18BA71BAB9561007333DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC18B9A1BAB9561007333DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC18BA41BAB9561007333DB /* ViewController.swift in Sources */,
+				CEC18BA21BAB9561007333DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC18BA51BAB9561007333DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC18BA61BAB9561007333DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC18BAA1BAB9561007333DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC18BAB1BAB9561007333DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC18BAE1BAB9561007333DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEC18BAF1BAB9561007333DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC18BB11BAB9561007333DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "gd-tip-calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gd.gd-tip-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC18BB21BAB9561007333DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "gd-tip-calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gd.gd-tip-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC18B991BAB9561007333DB /* Build configuration list for PBXProject "gd-tip-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC18BAE1BAB9561007333DB /* Debug */,
+				CEC18BAF1BAB9561007333DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC18BB01BAB9561007333DB /* Build configuration list for PBXNativeTarget "gd-tip-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC18BB11BAB9561007333DB /* Debug */,
+				CEC18BB21BAB9561007333DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC18B961BAB9561007333DB /* Project object */;
+}

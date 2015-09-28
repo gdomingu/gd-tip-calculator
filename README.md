@@ -17,4 +17,9 @@ Completed:
 
 ![Video Walkthrough](tip-calc-demo.gif)
 
-Note: to embed the gif file, just check your gif file into your repo and update the name of the file above.
+Installation Instructions
+- Built using Xcode 7.1 beta 2 (https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_7.1_beta_2/Xcode_7.1_beta_2.dmg).
+- Once you have xcode beta. git clone git@github.com:gdomingu/gd-tip-calculator.git
+- Open in Xcode and press play
+
+Note: There is a bug where the app crashes if you close it in simulator and try to open it again while Hardware -> Keyboard -> Connect Hardware Keyboard is off. To get around this switch to Connect Hardware Keyboard and rerun.
